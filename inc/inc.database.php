@@ -5,7 +5,7 @@
 function connect_db(){
     require_once 'config.php';
     
-    $connectionStatus = mysqli_connect($MYSQL_HOSTNAME, $MYSQL_USERNAME, $MYSQL_PASSWORD, $MYSQL_DATABASE);
+    $connectionStatus = mysqli_connect(localhost, root, , basic phpmyadmin);
     if(!$connectionStatus){
         echo "Error connecting database";
         die;
